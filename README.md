@@ -22,13 +22,6 @@ It combines:
 ## Tech Stack
 - Vite (frontend tooling)
 - Capacitor (Android/iOS builds)
-- Modular architecture:
-  - `/screens`
-  - `/components`
-  - `/services`
-  - `/ai`
-  - `/styles`
-  - `/assets`
 
 ## Project Status
 - ✅ Dark, futuristic UI foundation
@@ -37,9 +30,10 @@ It combines:
 - ⏳ Camera + AI pipeline
 - ⏳ Android/iOS builds
 
-## Getting Started (future Vite setup)
-
-```bash
-npm install
-npm run dev
-npm run build
+## Roadmap
+- [ ] Migrate to Vite
+- [ ] Implement 3D welcome screen
+- [ ] Implement camera scanning
+- [ ] Integrate AI nutrient analysis
+- [ ] Build AI coach flows
+- [ ] Ship Android & iOS builds
